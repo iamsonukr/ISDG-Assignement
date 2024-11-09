@@ -1,0 +1,99 @@
+<div class="elementor-shortcode">
+    <div class="priceSection ">
+        <div class="sliderArea">
+
+            <!--<div class="heading">-->
+            <!--    <h1 class="heading1" style=" font-size: 48px;">Choose Your Plan</h1>-->
+            <!--    <br>-->
+            <!--     <h4 style="margin-top: -10px; margin-bottom: 30px; color: white;">For $69 extra, we will empty and steam-->
+            <!--        clean your bins&nbsp;within&nbsp;24&nbsp;hrs.</h4>-->
+            <!--    <div class="twoCans" style="display: flex; gap: 50px;">-->
+            <!--        <h3>➤ 2 cans included</h3>-->
+            <!--        <h3>➤ $10 each additional can</h3>-->
+            <!--    </div>-->
+
+
+            <!--    </div>-->
+
+            <div class="sliderInput">
+                <pre>      </pre>
+                <h2 class="BillMe">Save 10% with annual billing </h2>
+                <label class="switch">
+                    <input id="sliderCheck" type="checkbox" onclick="checkBoxed()">
+                    <span class="slider round"></span>
+                </label>
+                <h2 class="BillMe"></h2>
+                <br>
+            </div>
+
+            <!--  Price plans  -->
+            <div class="sliderSection">
+                <!-- Every 6 week -->
+                <div class="sliders">
+                    <div class="titlediv">
+                        <p class="firstTitle">Every 6 weeks </p>
+                        <p class="firstTitle p2"> (8 cleanings per year)</p>
+                    </div>
+                    <!-- <p class="sectondTitle">Perfect for <br> soloprenuers and side <br>  gigs.and side gigs.</p> -->
+                    <h2 class="price firstPlan" id="firstPlan">$
+                        <span class="FirstPlanPrice">20.99 </span><span class="tax">+ Tax</span>
+                    </h2>
+                    <button onclick="openIt1()" id="byeNow1" class="byeNow">Book Now</button>
+                </div>
+
+                <!-- Quarterly -->
+                <div class="sliders">
+                    <span class="imgDiv"><img class="imgDis" height="120px"
+                            src="https://binmantrash.com/wp-content/uploads/2024/03/vecteezy_most-popular-online-shopping-vector-icon_5720326-removebg-preview-1.png"
+                            alt="VECTOR IMAGE"></span>
+
+
+                    <div class="titlediv">
+                        <p class="firstTitle">Quarterly</p>
+                        <p class="firstTitle p2">(4 cleanings&nbsp;per&nbsp;year)</p>
+                    </div>
+                    <h2 class="price" id="secondPlan">$
+                        <span class="quaterPlanPrice">36.99 </span><span class="tax">+ Tax</span>
+                    </h2>
+                    <button onclick="openIt2()" id="byeNow2" class="byeNow">Book Now</button>
+                </div>
+
+                <!-- Semi-Annual (6 months) -->
+                <div class="sliders">
+                    <div class="titlediv">
+                        <p class="firstTitle">Semi-Annual</p>
+                    </div>
+                    <h2 class="price" id="thirdPlan">$<span class="sixPlanPrice"> 49.99 </span><span class="tax">+
+                            Tax</span></h2>
+                    <button onclick="openIt3()" id="byeNow3" class="byeNow">Book Now</button>
+                </div>
+                <!-- One-Time -->
+                <div class="sliders">
+                    <div class="titlediv">
+                        <p class="firstTitle">One-Time</p>
+                    </div>
+                    <h2 class="price" id="forthPlan">$ <span class="oneYearPrice"> 69.99 </span><span class="tax">+
+                            Tax</span></h2>
+                    <button onclick="openIt4()" id="byeNow4" class="byeNow">Book Now</button>
+                </div>
+
+            </div>
+            <!--<h4 style="margin-top: 20px; color: white;display:flex;justify-content: center; align-items: center;">Have a trash emergency? Flies? Maggots, rodents?”</h4>-->
+            <!--<h3 style="margin-top: 20px; color: white;display:flex;justify-content: center; align-items: center;">Do you need Emergency 24hr Cleaning</h3>-->
+        </div>
+    </div>
+    <div class="pinSection">
+        <div class="section">
+
+            <h3 style="color:rgb(255, 255, 255); text-align:center;margin-top:1rem;font-size:2rem;">Check if our service
+                is
+                available in your area !</h3>
+            <div class="checkPin">
+                <input type="number" id="checkPinID" placeholder="Enter Your ZIP Code">
+            </div>
+            <button id="pinBtn" onclick="{checkPinFun()}" style="color: blue !important;"> Check ZIP Code →</button>
+            <h3 class="msg"></h3>
+            <!--<a href="https://binmantrash.com/check-out-1/"><button style="color: blue !important;" class="bookNow">Book Now →</button></a>-->
+        </div>
+    </div>
+</div>
